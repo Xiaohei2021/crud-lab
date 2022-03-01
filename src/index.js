@@ -6,6 +6,13 @@ import manageRestaurant from './reducers/manageRestaurant';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+
+// import rootReducer from './reducers/rootReducer';
+// import reducer from './reducers/rootReducer';
+
+
+
+// const store = createStore(reducer);
 const store = createStore(manageRestaurant);
 
 
